@@ -1,0 +1,113 @@
+body {
+    background: -webkit-linear-gradient(90deg, #fff8f6,#ffdfbd,#fff8f6);
+    background: linear-gradient(90deg, #fff8f6,#ffdfbd,#fff8f6);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: black;    
+}
+
+.base {
+    background-color: #FFF8F6;
+}
+a.navbar-brand {
+    margin-left: 40px;
+}
+
+.WonderLogo {
+    width: 265px;
+    height: 53px;
+    margin-top: -32px;
+    margin-left: -19px;
+}
+img {
+    width: 100%;
+}
+.navbar-nav.opc {
+    margin-left: -236px;
+}
+/*CARRUSEL*/
+div#carouselExampleCaptions {
+    width: 830px;
+}
+
+/* CONTAINER*/  
+div#carouselExampleCaptions {
+    margin-top: 20px;
+}
+/* CUERPO N1*/  
+.container {
+    margin-top: 30px;
+}
+.registro {
+    margin-top: 30px;
+}
+h5.card-title.qr {
+    margin-left: 80px;
+}
+img.Datos2 {
+    width: 650px;
+
+}
+.registro.fn {
+    margin-bottom: 30px;
+}
+.accion {
+    margin-bottom: 30px;
+}
+/* FOOTER*/  
+.log {
+    width: 170px;
+}
+.footer-company-name {
+    margin-top: -16px;
+    margin-left: -36px;
+}
+button.btn.btn-success {margin-top: 4px;}
+a{
+    color: black;
+    /* text-decoration: none; */
+}
+.carousel-inner.carrusel {
+    border-radius: 10px;
+}
+.barra a:hover{
+    text-decoration: none;
+    color: #B69F87
+}
+/* EMPRENDEDORES */
+
+h5.card.text-center.emprendedores {
+    font-size: 30px;
+}
+/* LINK DE REGISTRO */
+#registro {
+    border: solid 1px black;
+    width: 375px;
+    padding: 27px;
+    border-radius: 8px;
+    background: #ffdfbd;
+    margin-bottom: 30px;
+    margin-left: calc(50% - 180px);
+}
+.eventcard{
+   
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align:center;
+    background: #FFF8F6;
+}
+.eventos-general .container{
+    border-radius: 10px;
+}
+.eventype {
+    padding-top: 19px;
+}
+.btn-vermas {
+    margin-bottom: 30px;
+}
+/* ABOUT US */
+.decorcard2{
+    margin-top: 30px;
+}
+img.img-fluid {
+    height: 427px;
+}
