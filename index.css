@@ -1,8 +1,9 @@
 body {
-    background: -webkit-linear-gradient(90deg, #fff8f6,#ffdfbd,#fff8f6);
-    background: linear-gradient(90deg, #fff8f6,#ffdfbd,#fff8f6);
+    background-color: #f8f9fa; /* gris muy claro */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: black;    
+    color: #212529; /* casi negro para buena legibilidad */
+    margin: 0;
+    padding: 0;
 }
 
 .base {
@@ -19,14 +20,14 @@ a.navbar-brand {
     margin-left: -19px;
 }
 img {
-    width: 100%;
+    width: 80%;
 }
 .navbar-nav.opc {
     margin-left: -236px;
 }
 /*CARRUSEL*/
-div#carouselExampleCaptions {
-    width: 830px;
+.principal.img {
+    height: 40%;
 }
 
 /* CONTAINER*/  
@@ -74,6 +75,18 @@ a{
     color: #B69F87
 }
 /* EMPRENDEDORES */
+.parrafoW{
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+}
+
+.parrafoW p{
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: black; /* rosa fuerte, puedes cambiarlo */
+}
 
 h5.card.text-center.emprendedores {
     font-size: 30px;
@@ -89,7 +102,6 @@ h5.card.text-center.emprendedores {
     margin-left: calc(50% - 180px);
 }
 .eventcard{
-   
     margin-bottom: 30px;
     font-size: 20px;
     text-align:center;
@@ -110,4 +122,58 @@ h5.card.text-center.emprendedores {
 }
 img.img-fluid {
     height: 427px;
+}
+/* PROXIMOS EVENTOS */
+h5 {
+    font-size: 24px;
+    color: #333;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+}
+
+/* Efecto hover */
+h5:hover {
+  color: black; /* Cambia de color */
+  transform: scale(1.05); /* Aumenta un poco el tamaño */
+}
+
+/* Línea decorativa debajo (opcional) */
+h5::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.3s;
+    margin: 4px auto 0 auto;
+}
+
+h5:hover::after {
+    width: 100%;
+}
+
+
+.eventcard {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 15px;
+    margin: 10px 0;
+    transition: all 0.3s ease;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Efecto hover */
+.eventcard:hover {
+    background-color: #e9ecef;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-3px);
+}
+
+/* Opcional: estilos para los tipos de evento */
+.eventype {
+    font-weight: bold;
+    color: #6c757d;
 }
